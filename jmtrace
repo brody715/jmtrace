@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+APP_DIR=$(dirname "$0")
+java -javaagent:"${APP_DIR}"/app/build/libs/app-all.jar "$@"
